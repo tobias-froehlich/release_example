@@ -6,6 +6,6 @@ public class HelloWorld {
     }
 
     public int getNumber() {
-        return 5;
+        return 7;
     }
 }

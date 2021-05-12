@@ -17,6 +17,6 @@ class HelloWorldTest {
     @Test
     void getNumber() {
         HelloWorld helloWorld = new HelloWorld();
-        assertEquals(5, helloWorld.getNumber());
+        assertEquals(7, helloWorld.getNumber());
     }
 }
