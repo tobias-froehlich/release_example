@@ -13,4 +13,10 @@ class HelloWorldTest {
         assertEquals("Hello World!", helloWorld.getHello());
         System.out.println("Test has finished.");
     }
+
+    @Test
+    void getNumber() {
+        HelloWorld helloWorld = new HelloWorld();
+        assertEquals(5, helloWorld.getNumber());
+    }
 }
